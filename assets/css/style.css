@@ -166,7 +166,7 @@ html {
 }
 
 /* Slider fix để không bị header che */
-#slider {
+.slider {
     margin-top: 46px;
     padding-top: 50%;
     background: url(../img/slider/slider1.jpg) top center / cover no-repeat;
