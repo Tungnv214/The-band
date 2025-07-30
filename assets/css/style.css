@@ -150,6 +150,14 @@ html {
 }
 
 /* Search button */
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
@@ -236,7 +244,7 @@ html {
 }
 
 #content .members-list {
-   margin-top: 48px;
+   margin-top: 32px;
 }
 
 
@@ -287,7 +295,7 @@ html {
 }
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
    
 }
 

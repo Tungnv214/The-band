@@ -11,13 +11,28 @@
 
 /* Mobile */ 
 @media (max-width : 740px ) {
-        #nav > li {
+        
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
             display: block;
         }
 
-        #header .search-btn {
-            display: none;
-        }
+    #nav >li:first-child {
+        display: inline-block;
+    }
 
-        
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }    
+
+    #content .member-img {
+        width: 60%;
+    }
 }
